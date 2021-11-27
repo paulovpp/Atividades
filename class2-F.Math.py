@@ -1,4 +1,4 @@
-# Practical activity 2
+# Activity examples
 # Class 2
 # Paulo Pinheiro
 
@@ -78,3 +78,4 @@ a = 0.99 * x + 19.90
 b = 0.79 * x + 29.90
 plt.plot(x, a)
 plt.plot(x, b)
+plt.show()
