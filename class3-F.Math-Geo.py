@@ -16,7 +16,7 @@ plt.xlim(0, 10)
 
 fig = plt.figure()
 fig3 = fig.add_subplot(111, aspect='equal')
-fig3.add_patch (patches.Circle((0, 0), 3, color='red'))
+fig3.add_patch(patches.Circle((0, 0), 3, color='red'))
 plt.ylim(-10, 10)
 plt.xlim(-10, 10)
 
