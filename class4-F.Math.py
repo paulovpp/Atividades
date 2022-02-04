@@ -2,7 +2,7 @@
 # Dec 09, 2021
 
 
-from sympy import *
+from sympy import * 
 # import numpy as np
 # import matplotlib.pyplot as plt
 
@@ -10,6 +10,9 @@ x, f, g, h, j, ll, m, n, p, q = symbols("x f g h j ll m n p q", real=True)
 
 
 def calc_derivative(eq, variable, rank):
+    """
+    To calculate derivatives of any function
+    """
     return diff(eq, variable, rank)
 
 

@@ -1,9 +1,12 @@
-from sympy import *
-# import numpy as np
-# import matplotlib.pyplot as plt
+my_list = [1, 2, 4, 4, 1, 4, 2, 6, 2, 9]
+pos = []
+j = 0
 
-x, y = symbols("x y")
-init_printing()
-
-y = x**5 + x**3 - x**2
-print(diff(y, x, 3))
+for i in my_list:
+    while j <= len(my_list):
+        if i == my_list[j]:
+            # pos.append(j)
+            print(i, j, my_list[j])
+            j = j + 1
+    # print(pos)
+    # del pos[:]
